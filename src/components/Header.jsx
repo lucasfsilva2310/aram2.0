@@ -4,7 +4,6 @@ import {
   Logo,
   NavigationBar,
 } from "../styles/Header.style";
-import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
