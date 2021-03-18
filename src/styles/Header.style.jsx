@@ -18,6 +18,12 @@ export const Logo = styled.img`
   width: 7rem;
   height: 90%;
   margin-left: 6rem;
+  @media (max-width: 770px) {
+    margin-left: 0;
+  }
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const NavigationBar = styled.nav`
