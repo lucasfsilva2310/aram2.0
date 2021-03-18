@@ -28,8 +28,7 @@ export const NavigationBar = styled.nav`
     display: flex;
     justify-content: flex-end;
     font-weight: 600;
-    font-family: "Ubuntu", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: var(--mainText);
   }
   ul > li {
     display: flex;

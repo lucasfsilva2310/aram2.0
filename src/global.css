@@ -12,6 +12,8 @@
   --black: black;
   --main: #6c4825;
   --button: #a31414;
+  --mainText: "Ubuntu", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
 }
 
 html {
