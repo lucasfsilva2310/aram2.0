@@ -19,7 +19,7 @@ export const MainContainer = styled.div`
   align-items: center;
   font-family: var(--mainText);
   h2 {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     font-size: 2rem;
   }
 
