@@ -11,9 +11,19 @@ export const MainContainer = styled.div`
       ? "url(images/background.png)"
       : "url(images/background.png)"};
   background-repeat: no-repeat;
-  background-size: 120% 100%;
+  background-size: 100rem 60rem;
 
   display: flex;
+
+  @media (max-width: 970px) {
+    background-image: ${(props) =>
+      props.insideMenuPage === true
+        ? "url(images/background.png)"
+        : "url(images/backgroundshrinked.png)"};
+  }
+  @media (max-width: 605px) {
+    background-size: 70rem 60rem;
+  } ;
 `;
 
 export const TextContainer = styled.div`
@@ -40,4 +50,8 @@ export const TextContainer = styled.div`
   span {
     font-size: 1.5rem;
   }
+
+  @media (max-width: 605px) {
+    margin: 19rem 0 0 0;
+  } ;
 `;

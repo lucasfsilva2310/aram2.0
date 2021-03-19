@@ -1,11 +1,12 @@
 import styled from "styled-components";
-import { TextField } from "@material-ui/core";
 
 export const ContactAndLocalContainer = styled.div`
   width: 100%;
 
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 3.5rem;
 
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -85,6 +86,16 @@ export const InputsContainer = styled.div`
   p {
     width: 90%;
   }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div > span {
+    padding: 0.3rem;
+  }
+
   input {
     color: #3c3c3c;
     font-family: var(--mainText);

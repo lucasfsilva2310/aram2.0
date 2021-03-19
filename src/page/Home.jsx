@@ -3,6 +3,7 @@ import { MainContent } from "../components/MainContent";
 import { AramAbout } from "../components/AramAbout";
 import { MainDishes } from "../components/MainDishes";
 import { ContactAndLocal } from "../components/ContactAndLocal";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <AramAbout />
       <MainDishes />
       <ContactAndLocal />
+      <Footer />
     </>
   );
 };

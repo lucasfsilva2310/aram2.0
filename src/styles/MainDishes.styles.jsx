@@ -4,81 +4,41 @@ export const DishesContainer = styled.div`
   width: 100%;
 
   background-color: var(--white);
-
-  display: flex;
-  justify-content: space-between;
 `;
 
 export const MainContainer = styled.div`
   height: 100%;
-  width: 55rem;
-  margin: 4rem auto;
+  width: 100%;
+
+  padding: 2rem;
+  margin: 1rem auto;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
   font-family: var(--mainText);
-  h2 {
+  text-align: center;
+  div > h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
+    padding-bottom: 0.5rem;
   }
 
-  &:nth-child(1) {
-    border-bottom: 1px solid grey;
-    width: 25rem;
+  div > span {
+    color: grey;
   }
+
   @media (max-width: 435px) {
     text-align: center;
   } ;
 `;
 
-export const LeftContainer = styled.div`
-  width: 12rem;
-  height: 22rem;
-
-  padding-left: 0.5rem;
-  img {
-    width: 100%;
-    border-radius: 50px;
-  }
-  strong {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  display: flex;
-  flex-direction: column;
-
-  @media (max-width: 1040px) {
-    display: none;
-  }
-`;
-
-export const RightContainer = styled.div`
-  width: 12rem;
-  height: 22rem;
-
-  padding-right: 0.5rem;
-  img {
-    width: 100%;
-    border-radius: 50px;
-  }
-
-  strong {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  display: flex;
-  flex-direction: column;
-  @media (max-width: 1040px) {
-    display: none;
-  }
-`;
-
 export const DishContainer = styled.div`
   height: 100%;
   display: flex;
+  justify-content: space-between
   align-items: center;
 
   margin-top: 2.5rem;
@@ -89,7 +49,7 @@ export const DishContainer = styled.div`
 `;
 export const DishCard = styled.div`
   width: 20rem;
-  height: 22rem;
+  height: 100%;
 
   padding: 1rem;
 
@@ -105,10 +65,13 @@ export const DishCard = styled.div`
 
   strong {
     font-size: 1.5rem;
+    padding: 1rem;
   }
   span {
     margin-top: 1rem;
     color: grey;
+    text-align: start;
+    padding-bottom: 0.5rem;
   }
 
   @media (max-width: 365px) {

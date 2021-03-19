@@ -10,14 +10,11 @@ import {
 export const MainDishes = () => {
   return (
     <DishesContainer>
-      <LeftContainer>
-        <strong>Temos café da manhã à vontade!</strong>
-        <img src="images/dishExample.jpeg" alt="café da manhã" />
-      </LeftContainer>
-
       <MainContainer>
-        <h2>Os melhores pratos avaliados </h2>
-        <span>Também temos pratos vegetarianos / veganos</span>
+        <div>
+          <h2>Os melhores pratos avaliados </h2>
+          <span>Também temos pratos vegetarianos / veganos</span>
+        </div>
         <DishContainer>
           {dishes.map((dish) => {
             return (
@@ -30,10 +27,6 @@ export const MainDishes = () => {
           })}
         </DishContainer>
       </MainContainer>
-      <RightContainer>
-        <strong>Marmitas para viagem!</strong>
-        <img src="images/dishExample.jpeg" alt="café da manhã" />
-      </RightContainer>
     </DishesContainer>
   );
 };
