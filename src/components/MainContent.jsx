@@ -1,13 +1,11 @@
-import { Button } from "../styles/Header.style";
 import { MainContainer, TextContainer } from "../styles/MainContent.style";
+import { ContentMainHomePage } from "./ContentMainHomePage";
 
-export const MainContent = () => {
+export const MainContent = ({ insideMenuPage, children }) => {
   return (
-    <MainContainer>
+    <MainContainer insideMenuPage={insideMenuPage}>
       <TextContainer>
-        <h1>Experimente os sabores da natureza</h1>
-        <span>Venha conhecer o menu Aram!</span>
-        <Button>Menu</Button>
+        <ContentMainHomePage />
       </TextContainer>
     </MainContainer>
   );

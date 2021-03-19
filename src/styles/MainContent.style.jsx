@@ -8,18 +8,19 @@ export const MainContainer = styled.div`
 
   background-image: ${(props) =>
     props.insideMenuPage === true
-      ? "url(images/background.png)"
+      ? "url(images/backgroundMenu.jpg)"
       : "url(images/background.png)"};
   background-repeat: no-repeat;
-  background-size: 100rem 60rem;
+  background-size: 120% 60rem;
 
   display: flex;
 
   @media (max-width: 970px) {
     background-image: ${(props) =>
       props.insideMenuPage === true
-        ? "url(images/background.png)"
+        ? "url(images/backgroundMenu.jpg)"
         : "url(images/backgroundshrinked.png)"};
+    background-size: 160% 60rem;
   }
   @media (max-width: 605px) {
     background-size: 70rem 60rem;

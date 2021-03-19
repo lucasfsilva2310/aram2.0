@@ -48,7 +48,7 @@ export const DishContainer = styled.div`
   }
 `;
 export const DishCard = styled.div`
-  width: 20rem;
+  width: 24rem;
   height: 100%;
 
   padding: 1rem;

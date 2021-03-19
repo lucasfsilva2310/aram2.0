@@ -1,3 +1,4 @@
+import { useHistory } from "react-router";
 import {
   Button,
   HeaderContainer,
@@ -6,6 +7,8 @@ import {
 } from "../styles/Header.style";
 
 export const Header = ({ insideMenuPage }) => {
+  const history = useHistory();
+
   return (
     <HeaderContainer>
       <Logo src="images/Logo1.png" alt="Logo" />
@@ -14,25 +17,25 @@ export const Header = ({ insideMenuPage }) => {
           {insideMenuPage ? (
             <>
               <li>
-                <a href="#">Início</a>
+                <a href="/">Início</a>
               </li>
             </>
           ) : (
             <>
               <li>
-                <a href="#">Início</a>
+                <a href="/">Início</a>
               </li>
               <li>
-                <a href="#">Aram</a>
+                <a href="#aram">Aram</a>
               </li>
               <li>
-                <a href="#">Contato</a>
+                <a href="#contact">Contato</a>
               </li>
               <li>
-                <a href="#">Localização</a>
+                <a href="#contact">Localização</a>
               </li>
               <li>
-                <Button>Menu</Button>
+                <Button onClick={() => history.push("/menu")}>Menu</Button>
               </li>
             </>
           )}

@@ -6,7 +6,7 @@ import {
 
 export const AramAbout = () => {
   return (
-    <AramContainer>
+    <AramContainer id="aram">
       <AramImage src="images/aramAboutImg.png" alt="ambiente" />
       <AramTextContainer>
         <h2>Sobre Nós</h2>

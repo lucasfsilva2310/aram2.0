@@ -35,7 +35,7 @@ export const ContactAndLocal = () => {
       .catch((res) => console.log(res.text));
   }
   return (
-    <ContactAndLocalContainer>
+    <ContactAndLocalContainer id="contact">
       <GoogleMapsContainer>
         <h2>Localização</h2>
         <GoogleMaps />
