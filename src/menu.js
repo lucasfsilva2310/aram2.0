@@ -5,7 +5,6 @@ export const MainDishes = [
       "Medalhão de filé mignon bardeado, acompanhado de salafa de alface,tomate e um delicioso risoto de alho poró.",
     image: "images/Dishes/dishExample.jpeg",
     price: "37,00",
-    imgleft: true,
   },
   {
     name: "Polpetone",
@@ -13,7 +12,6 @@ export const MainDishes = [
       "Polpetone de carne recheado de mussarela aromatizada, servido com penne na manteiga acompanhado de pesto.",
     image: "images/Dishes/polpetone.jpeg",
     price: "30,00",
-    imgleft: false,
   },
   {
     name: "Prato 3",
@@ -21,7 +19,6 @@ export const MainDishes = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 4",
@@ -56,7 +53,6 @@ export const breakfast = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 4",
@@ -103,7 +99,6 @@ export const salads = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -120,7 +115,6 @@ export const pastas = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 6",
@@ -134,7 +128,6 @@ export const pastas = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -145,7 +138,6 @@ export const veggie = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 5",
@@ -159,7 +151,6 @@ export const veggie = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 6",
@@ -173,7 +164,6 @@ export const veggie = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -184,7 +174,6 @@ export const soups = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -192,7 +181,6 @@ export const soups = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -203,7 +191,6 @@ export const sandwiches = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -211,7 +198,6 @@ export const sandwiches = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -222,7 +208,6 @@ export const HamburguersAndPizzas = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -230,7 +215,6 @@ export const HamburguersAndPizzas = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -238,7 +222,6 @@ export const HamburguersAndPizzas = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -249,7 +232,6 @@ export const deserts = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -257,7 +239,6 @@ export const deserts = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -265,7 +246,6 @@ export const deserts = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 
   {
@@ -274,7 +254,6 @@ export const deserts = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];
 
@@ -285,7 +264,6 @@ export const takeaways = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
   {
     name: "Prato 1",
@@ -293,7 +271,6 @@ export const takeaways = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 
   {
@@ -302,6 +279,5 @@ export const takeaways = [
       "Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     image: "images/Dishes/dishExample.jpeg",
     price: "25,90",
-    imgleft: true,
   },
 ];

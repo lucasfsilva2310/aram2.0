@@ -8,7 +8,7 @@ import {
 export const Footer = () => {
   return (
     <FooterContainer>
-      <RightsContainer>Todos os direitos reservados.</RightsContainer>
+      <RightsContainer>Todos os direitos reservados.©</RightsContainer>
       <SocialMedias>
         <ul>
           <li>

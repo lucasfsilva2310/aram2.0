@@ -5,8 +5,13 @@ import { MainDishes } from "../components/MainDishes";
 import { ContactAndLocal } from "../components/ContactAndLocal";
 import { Footer } from "../components/Footer";
 import { ContentMainHomePage } from "../components/ContentMainHomePage";
+import { useEffect } from "react";
 
 export const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />

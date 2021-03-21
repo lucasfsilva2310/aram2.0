@@ -35,7 +35,7 @@ export const ContainerRightSide = styled.div`
   display: flex;
   flex-direction: column;
   @media (max-width: 1300px) {
-    width: 95%;
+    width: 85%;
 
     margin: 1rem auto;
   }
@@ -70,7 +70,7 @@ export const WhiteCard = styled.div`
   }
 
   @media (max-width: 1300px) {
-    width: 95%;
+    width: 85%;
 
     margin: 1rem auto;
   }
@@ -101,7 +101,7 @@ export const BordedCard = styled.div`
     padding: 0.5rem 0;
   }
   @media (max-width: 1300px) {
-    width: 95%;
+    width: 85%;
 
     margin: 1rem auto;
   }
@@ -122,7 +122,7 @@ export const ImageCard = styled.div`
   }
 
   @media (max-width: 1300px) {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
   }
 `;

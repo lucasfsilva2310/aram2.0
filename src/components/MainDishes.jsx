@@ -7,6 +7,8 @@ import {
   DishContainer,
 } from "../styles/MainDishes.styles";
 
+import { Fade } from "react-reveal";
+
 export const MainDishes = () => {
   return (
     <DishesContainer>
@@ -15,6 +17,7 @@ export const MainDishes = () => {
           <h2>Os melhores pratos avaliados </h2>
           <span>Também temos pratos vegetarianos & veganos</span>
         </div>
+
         <DishContainer>
           {dishes.map((dish) => {
             return (
