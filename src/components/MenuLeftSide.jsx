@@ -7,7 +7,7 @@ import {
   WhiteCard,
 } from "../styles/MenuDishes.style";
 import { breakfast, deserts, MainDishes, salads, sandwiches } from "../menu";
-import { Fade, Flip } from "react-reveal";
+import { Fade } from "react-reveal";
 
 export const MenuLeftSide = () => {
   return (
@@ -15,9 +15,9 @@ export const MenuLeftSide = () => {
       <Fade left duration={1500}>
         <WhiteCard>
           <h2>Pratos Principais</h2>
-          {MainDishes.map((dish) => {
+          {MainDishes.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -39,9 +39,9 @@ export const MenuLeftSide = () => {
       <Fade left duration={1500}>
         <BordedCard>
           <h2>{`Massas  &  Risotos`}</h2>
-          {breakfast.map((dish) => {
+          {breakfast.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -58,9 +58,9 @@ export const MenuLeftSide = () => {
       <Fade left duration={1500}>
         <BordedCard>
           <h2>Sobremesas</h2>
-          {breakfast.map((dish) => {
+          {breakfast.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -77,9 +77,9 @@ export const MenuLeftSide = () => {
       <Fade bottom duration={1500}>
         <WhiteCard>
           <h2>Sanduíches Frios</h2>
-          {sandwiches.map((dish) => {
+          {sandwiches.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -96,9 +96,9 @@ export const MenuLeftSide = () => {
       <Fade left duration={1500}>
         <BordedCard>
           <h2>Sobremesas</h2>
-          {deserts.map((dish) => {
+          {deserts.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>

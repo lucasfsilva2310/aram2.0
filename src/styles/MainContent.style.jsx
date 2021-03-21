@@ -18,13 +18,20 @@ export const MainContainer = styled.div`
   @media (max-width: 970px) {
     background-image: ${(props) =>
       props.insideMenuPage === true
-        ? "url(images/backgroundMenu.jpg)"
+        ? "url(images/backgroundMenuShrinked.jpg)"
         : "url(images/backgroundshrinked.png)"};
     background-size: 160% 60rem;
   }
   @media (max-width: 605px) {
     background-size: 70rem 60rem;
-  } ;
+  }
+  @media (max-width: 420px) {
+    background-image: ${(props) =>
+      props.insideMenuPage === true
+        ? "url(images/backgroundMenuShrinked.jpg)"
+        : "url(images/backgroundshrinked.png)"};
+    background-size: 180% 60rem;
+  }
 `;
 
 export const TextContainer = styled.div`

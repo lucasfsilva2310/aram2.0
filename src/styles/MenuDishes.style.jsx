@@ -7,7 +7,6 @@ export const MenuDishesContainer = styled.div`
 
   display: flex;
   justify-content: space-between;
-  /* align-items: stretch; */
   flex-wrap: wrap;
 
   @media (max-width: 1150px) {

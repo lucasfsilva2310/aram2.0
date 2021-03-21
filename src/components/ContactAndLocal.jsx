@@ -7,7 +7,6 @@ import {
   InputsContainer,
 } from "../styles/ContactAndLocal.style";
 
-import { TextField } from "@material-ui/core";
 import { Button } from "../styles/Header.style";
 
 import { sendForm } from "emailjs-com";
@@ -52,7 +51,7 @@ export const ContactAndLocal = () => {
               <input name="email" type="email" placeholder="Email" />
             </p>
 
-            <p class="text">
+            <p>
               <textarea name="text" placeholder="Mensagem"></textarea>
             </p>
 

@@ -9,7 +9,6 @@ import {
 import {
   breakfast,
   HamburguersAndPizzas,
-  MainDishes,
   salads,
   soups,
   takeaways,
@@ -30,9 +29,9 @@ export const MenuRightSide = () => {
       <Fade right duration={1500}>
         <BordedCard>
           <h2>Café da Manhã</h2>
-          {breakfast.map((dish) => {
+          {breakfast.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -48,9 +47,9 @@ export const MenuRightSide = () => {
       <Fade right duration={1500}>
         <WhiteCard>
           <h2>Saladas</h2>
-          {salads.map((dish) => {
+          {salads.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -67,9 +66,9 @@ export const MenuRightSide = () => {
       <Fade right duration={1500}>
         <BordedCard>
           <h2>Vegetarianos</h2>
-          {veggie.map((dish) => {
+          {veggie.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -86,9 +85,9 @@ export const MenuRightSide = () => {
       <Fade right duration={1500}>
         <WhiteCard>
           <h2>Sopas</h2>
-          {soups.map((dish) => {
+          {soups.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -110,9 +109,9 @@ export const MenuRightSide = () => {
       <Fade right duration={1500}>
         <WhiteCard>
           <h2>{`Lanches & Pizzas`}</h2>
-          {HamburguersAndPizzas.map((dish) => {
+          {HamburguersAndPizzas.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>
@@ -130,9 +129,9 @@ export const MenuRightSide = () => {
         <WhiteCard>
           <h2>Pratos Executivos</h2>
           <p>Para entregas!</p>
-          {takeaways.map((dish) => {
+          {takeaways.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <>
                   <DishCardDescription>
                     <h3>{dish.name}</h3>

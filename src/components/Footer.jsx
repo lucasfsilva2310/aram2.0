@@ -1,6 +1,5 @@
 import {
   FooterContainer,
-  Media,
   RightsContainer,
   SocialMedias,
 } from "../styles/Footer.style";
@@ -13,8 +12,9 @@ export const Footer = () => {
         <ul>
           <li>
             <a
-              href="https://www.facebook.com/Aram-Bar-e-Restaurante-110312737117140/?view_public_for=110312737117140"
+              href="https://api.whatsapp.com/send?phone=5511954987031&text=Ola!"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/cute-clipart/64/000000/whatsapp.png"
@@ -24,8 +24,9 @@ export const Footer = () => {
           </li>
           <li>
             <a
-              href="https://api.whatsapp.com/send?phone=5511954987031&text=Ola!"
+              href="https://www.facebook.com/Aram-Bar-e-Restaurante-110312737117140/?view_public_for=110312737117140"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/cute-clipart/64/000000/facebook.png"
@@ -37,6 +38,7 @@ export const Footer = () => {
             <a
               href="https://www.instagram.com/arambarerestaurante/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/cute-clipart/30/000000/instagram-new.png"
@@ -48,6 +50,7 @@ export const Footer = () => {
             <a
               href="https://www.ifood.com.br/delivery/sao-paulo-sp/aram-bistro-cafe-e-bar-planalto-paulista/09b8e5e7-95cc-4c31-8995-ca31edc086d9"
               target="_blank"
+              rel="noreferrer"
             >
               <img src="images/Ifood-minilogo.png" alt="Ifood" />
             </a>

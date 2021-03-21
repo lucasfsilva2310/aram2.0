@@ -1,9 +1,7 @@
 import {
   DishCard,
   DishesContainer,
-  LeftContainer,
   MainContainer,
-  RightContainer,
   DishContainer,
 } from "../styles/MainDishes.styles";
 
@@ -19,9 +17,9 @@ export const MainDishes = () => {
         </div>
 
         <DishContainer>
-          {dishes.map((dish) => {
+          {dishes.map((dish, index) => {
             return (
-              <DishCard>
+              <DishCard key={index}>
                 <img src={dish.image} alt={dish.name} />
                 <strong>{dish.name}</strong>
                 <span>{dish.description}</span>
