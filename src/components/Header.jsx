@@ -1,6 +1,7 @@
 import { useHistory } from "react-router";
 import {
   Button,
+  ButtonMobile,
   HeaderContainer,
   Logo,
   NavigationBar,
@@ -41,6 +42,11 @@ export const Header = ({ insideMenuPage }) => {
           )}
         </ul>
       </NavigationBar>
+      {insideMenuPage ? (
+        <ButtonMobile onClick={() => history.push("/")}>Início</ButtonMobile>
+      ) : (
+        <ButtonMobile onClick={() => history.push("/menu")}>Menu</ButtonMobile>
+      )}
     </HeaderContainer>
   );
 };

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Fade from "react-reveal/Fade";
 
 export const AramContainer = styled.div`
   width: 100%;
@@ -12,16 +11,23 @@ export const AramContainer = styled.div`
 `;
 
 export const AramImage = styled.img`
-  width: 100%;
+  width: 50rem;
   min-width: 22rem;
-  min-height: 35rem;
 
   margin: 1rem auto;
   padding: 1rem 2rem;
+
+  @media (max-width: 475px) {
+    padding: 0.8rem;
+    img {
+      width: 100%;
+      height: 20rem;
+    }
+  } ;
 `;
 
 export const AramTextContainer = styled.div`
-  width: 50%;
+  width: 60%;
   min-height: 27rem;
 
   margin: 2rem auto;

@@ -15,6 +15,12 @@ export const HeaderContainer = styled.div`
 
   z-index: 10;
   color: var(--white);
+
+  @media (max-width: 510px) {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.img`
@@ -27,12 +33,17 @@ export const Logo = styled.img`
   @media (max-width: 600px) {
     display: none;
   }
+  @media (max-width: 510px) {
+    display: block;
+    width: 30%;
+  }
 `;
 
 export const NavigationBar = styled.nav`
   width: 100%;
 
   margin: auto 4rem auto auto;
+
   ul {
     display: flex;
     justify-content: flex-end;
@@ -54,6 +65,10 @@ export const NavigationBar = styled.nav`
   ul > li > a:focus {
     transform: scale(1.2);
   }
+
+  @media (max-width: 510px) {
+    display: none;
+  }
 `;
 
 export const Button = styled.button`
@@ -73,5 +88,14 @@ export const Button = styled.button`
   }
   &:focus {
     transform: scale(1.1);
+  }
+`;
+
+export const ButtonMobile = styled(Button)`
+  display: none;
+
+  @media (max-width: 510px) {
+    display: block;
+    width: 40%;
   }
 `;

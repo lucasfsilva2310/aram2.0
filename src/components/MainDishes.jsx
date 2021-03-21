@@ -13,7 +13,7 @@ export const MainDishes = () => {
       <MainContainer>
         <div>
           <h2>Os melhores pratos avaliados </h2>
-          <span>Também temos pratos vegetarianos / veganos</span>
+          <span>Também temos pratos vegetarianos & veganos</span>
         </div>
         <DishContainer>
           {dishes.map((dish) => {
