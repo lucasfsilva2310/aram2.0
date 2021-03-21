@@ -12,11 +12,14 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
 
   background: var(--main);
+
+  z-index: 10;
+  color: var(--white);
 `;
 
 export const Logo = styled.img`
-  width: 7rem;
-  height: 90%;
+  width: 12rem;
+  height: 100%;
   margin-left: 6rem;
   @media (max-width: 770px) {
     margin-left: 0;
@@ -41,6 +44,16 @@ export const NavigationBar = styled.nav`
     margin: 0 1rem;
     align-items: center;
   }
+
+  ul > li > a {
+    transition: transform 0.3s;
+  }
+  ul > li > a:hover {
+    transform: scale(1.2);
+  }
+  ul > li > a:focus {
+    transform: scale(1.2);
+  }
 `;
 
 export const Button = styled.button`
@@ -52,4 +65,13 @@ export const Button = styled.button`
   background-color: var(--button);
   color: var(--white);
   font-weight: 600;
+
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:focus {
+    transform: scale(1.1);
+  }
 `;

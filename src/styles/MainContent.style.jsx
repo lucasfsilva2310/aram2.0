@@ -31,7 +31,7 @@ export const TextContainer = styled.div`
   width: 60rem;
   height: 20rem;
 
-  margin: 19rem 0 0 5rem;
+  margin: 19rem 0 0 0;
 
   display: flex;
   flex-direction: column;
@@ -52,7 +52,13 @@ export const TextContainer = styled.div`
     font-size: 1.5rem;
   }
 
+  @media (max-width: 915px) {
+    width: 80%;
+    margin: 19rem 0 0 5rem;
+  }
+
   @media (max-width: 605px) {
+    width: 100%;
     margin: 19rem 0 0 0;
   } ;
 `;

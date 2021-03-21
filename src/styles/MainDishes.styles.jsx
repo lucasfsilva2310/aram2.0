@@ -37,8 +37,9 @@ export const MainContainer = styled.div`
 
 export const DishContainer = styled.div`
   height: 100%;
+  width: 95%;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
   align-items: center;
 
   margin-top: 2.5rem;

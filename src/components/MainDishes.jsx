@@ -33,19 +33,19 @@ export const MainDishes = () => {
 
 const dishes = [
   {
-    image: "images/dishExample.jpeg",
+    image: "images//Dishes/dishExample.jpeg",
     name: "prato 1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut quam nihil magnam totam suscipit molestias unde",
   },
   {
-    image: "images/dishExample.jpeg",
+    image: "images//Dishes/dishExample.jpeg",
     name: "prato 2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut quam nihil magnam totam suscipit molestias unde",
   },
   {
-    image: "images/dishExample.jpeg",
+    image: "images//Dishes/dishExample.jpeg",
     name: "prato 3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut quam nihil magnam totam suscipit molestias unde",

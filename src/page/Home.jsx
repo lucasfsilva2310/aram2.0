@@ -4,12 +4,15 @@ import { AramAbout } from "../components/AramAbout";
 import { MainDishes } from "../components/MainDishes";
 import { ContactAndLocal } from "../components/ContactAndLocal";
 import { Footer } from "../components/Footer";
+import { ContentMainHomePage } from "../components/ContentMainHomePage";
 
 export const Home = () => {
   return (
     <>
       <Header />
-      <MainContent />
+      <MainContent>
+        <ContentMainHomePage />
+      </MainContent>
       <AramAbout />
       <MainDishes />
       <ContactAndLocal />

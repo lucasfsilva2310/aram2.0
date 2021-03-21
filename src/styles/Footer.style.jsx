@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   width: 100%;
   height: 3.5rem;
-  background-color: var(--main);
+  background: var(--main);
 
   position: fixed;
   bottom: 0;
 
   display: flex;
   justify-content: space-between;
+
+  color: var(--white);
 `;
 
 export const RightsContainer = styled.div`
@@ -44,11 +46,14 @@ export const SocialMedias = styled.div`
 
     display: flex;
     justify-content: space-around;
-    animation: transform 0.5s;
   }
 
   ul > li:last-child {
     margin-left: 20px;
+  }
+
+  ul > li {
+    transition: transform 0.3s;
   }
 
   ul > li:hover {

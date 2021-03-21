@@ -11,7 +11,7 @@ export const Header = ({ insideMenuPage }) => {
 
   return (
     <HeaderContainer>
-      <Logo src="images/Logo1.png" alt="Logo" />
+      <Logo src="images/ara_logo_white.png" alt="Logo" />
       <NavigationBar>
         <ul>
           {insideMenuPage ? (
